@@ -1,0 +1,26 @@
+.main-header {
+  font-size: 1.4rem;
+  border-bottom: 1px solid #7f7f7f;
+  font-family: Anton;
+  .main-container-header {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  li {
+    margin: 0 5px;
+    font-size: 1rem;
+  }
+  a {
+    color: $clr4;
+  }
+  .logo {
+    color: $clr3;
+    span {
+      color: $clr4;
+    }
+    svg {
+      color: $clr4;
+    }
+  }
+}

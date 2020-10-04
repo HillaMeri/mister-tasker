@@ -1,0 +1,27 @@
+.home {
+  height: 100vh;
+  .hero-img {
+    img {
+      height: 70vh;
+      object-fit: cover;
+    }
+  }
+
+  .hero-title {
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    font-size: 2rem;
+    padding: 10px;
+    .btn-get-start {
+      border-radius: 999px;
+      width: 250px;
+      background-color: $clr2;
+      a {
+        font-family: Anton;
+        font-size: 1.3rem;
+        color: $clr3;
+      }
+    }
+  }
+}

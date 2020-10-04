@@ -1,0 +1,21 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+@import "setup/animations.scss";
+
+@import "./components/taskPreview";
+@import "./components/taskList";
+@import "./components/header";
+
+@import "basics/base.scss";
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+
+
+// Views
+@import "./views/taskApp";
+@import "./views/taskAdd";
+@import "./views/home";
+

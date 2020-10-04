@@ -1,0 +1,6 @@
+.task-list{
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: 210px;
+    grid-auto-flow: row;
+}
